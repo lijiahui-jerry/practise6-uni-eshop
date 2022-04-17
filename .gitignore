@@ -1,8 +1,16 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-/node_modules
-/miniprogram_npm
+# Mac
+.DS_Store
+**/.DS_Store
 
+# vim/vi
+*.swp
+
+# JavaScript
+node_modules/
+.node_modules/
+.eslintcache
+unpackage/dist/build/
+unpackage/dist/dev/
+
+# python
+*.pyc
